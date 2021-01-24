@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+    <div class="container ">
+        <header>
+            <h1> Movie Search </h1>
+        </header>
+        <div class="row">
+            <div class="col-10" id="buttontest" style="background-color: lightgray; padding:10px">
+            <!-- <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-warning">Warning</button> -->
+        </div>
+        
+            <div class="col"> <button onclick="clearSearch()" type="button" class="btn ">Clear</button>
+            
+        </div>
+        <div style="margin:10px ;">
+        <div class="row">
+            <div class=" card" >
+            <h2>Add a Movie Search Button</h2>
+            <input type="text" id="movieNameId" name="movieName" placeholder="Movie Title"><br>
+            <!-- <textarea style="margin-bottom: 10px;" > Movie Title</textarea> -->
+            <button onclick="fetchMovie()" type="button" class="btn btn-primary" style="margin-bottom: 10px; width: 15%;" >Add Movie Search</button>
+        </div></div>
+        <div class="row" id="test">
+            <!-- <div class="col-3 card"  style="padding:0%; margin-bottom: 1%; margin-right: 1%;">
+                <h5 class="card-header">Sunshine</h5>
+                <div class="card-body">
+                    <h5 class="card-title">Release Year:2007</h5>
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT1davX7WE4t3LfpNo442yu6mg0M1I0pJsI55fdfASc1qvEtPwM"
+                        class="card-text" width="100%" height="90%"/>
+                </div>
+            </div>
+            <div class="col-3 card" style="padding:0%; margin-bottom: 1%; margin-right: 1%;">
+                <h5 class="card-header">Sunshine</h5>
+                <div class="card-body">
+                    <h5 class="card-title">Release Year:2007</h5>
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT1davX7WE4t3LfpNo442yu6mg0M1I0pJsI55fdfASc1qvEtPwM"
+                        class="card-text" width="100%" height="90%" />
+                </div>
+            </div><div class="col-3 card" style="padding:0%; margin-bottom: 1%; margin-right: 12%;">
+                <h5 class="card-header">Sunshine</h5>
+                <div class="card-body">
+                    <h5 class="card-title">Release Year:2007</h5>
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT1davX7WE4t3LfpNo442yu6mg0M1I0pJsI55fdfASc1qvEtPwM"
+                        class="card-text" width="100%" height="90%" />
+                </div>
+            </div><div class="col-3 card" style="padding:0%; margin-bottom: 2%;">
+                <h5 class="card-header">Sunshine</h5>
+                <div class="card-body">
+                    <h5 class="card-title">Release Year:2007</h5>
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT1davX7WE4t3LfpNo442yu6mg0M1I0pJsI55fdfASc1qvEtPwM"
+                        class="card-text" width="100%" height="90%" />
+                </div>
+            </div><div class="col-3 card">
+                <h5 class="card-header">Sunshine</h5>
+                <div class="card-body">
+                    <h5 class="card-title">Release Year:2007</h5>
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT1davX7WE4t3LfpNo442yu6mg0M1I0pJsI55fdfASc1qvEtPwM"
+                        class="card-text" width="100%" height="90%" />
+                </div>
+            </div> -->
+        </div>
+        </div>
+
+        <div id="root"></div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
